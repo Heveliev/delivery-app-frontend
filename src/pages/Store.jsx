@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect } from 'react';
-import { allStores, getOneStore,getIsLoading, getIsOpen  } from "../redux";
+import { allStores, getOneStore,getIsLoading  } from "../redux";
 import { StoresList, OneStore, BoxSpinner,  } from "../components";
 
 
