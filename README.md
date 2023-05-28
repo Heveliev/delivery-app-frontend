@@ -38,3 +38,7 @@ DataBase: MongoDB
 If you need to run the application locally you should follow these steps:
 1. Install dependencies with npm i command;
 2. Then write the npm start command.
+
+
+If questions remain:
+https://t.me/AHeveliev
