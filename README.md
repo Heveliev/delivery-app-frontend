@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+Pudge food delivery 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Implemented:
+Shops page:
+1.The page where users can choose a shop, then add goods to the cart (get data from the database)
+2.Users can order products only from one shop (for example, if the user chooses McDonald's. Then you need to disable other shops.)
 
-In the project directory, you can run:
+Shopping cart page:
+1.The page where the user can check all added products, remove some of them or change the count. And add an email, a phone number, and an address (in inputs)
+2.The order should be saved in the database after the user clicks the “submit” button
 
-### `npm start`
+Otners:
+1.Orders history page
+2.Users can find their orders on this page using their email and phone number
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Technologies:
+Front-end: React,Redux, Persist, Chakra UI and other libraries.
 
-### `npm test`
+GitHub: https://github.com/Heveliev/delivery-app-frontend
+Web: https://pudge-delivery-heveliev.netlify.app/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Back-end:JS, Node,Express, Mongoose and other libraries.
 
-### `npm run build`
+GitHub: https://github.com/Heveliev/delivery-app-backend
+Рosted on the platform: render.com
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+DataBase: MongoDB
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. https://ibb.co/3y8vfgH
+2. https://ibb.co/rFYy5SW
+3. https://ibb.co/x1zh4p6
+4. https://ibb.co/kQmnPLp
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you need to run the application locally you should follow these steps:
+1. Install dependencies with npm i command;
+2. Then write the npm start command.

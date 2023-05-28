@@ -6,7 +6,7 @@ import { StoresList, OneStore, BoxSpinner,  } from "../components";
 
 
 
-export const Store = () =>{
+ const Store = () =>{
     const dispatch = useDispatch();
     const loading = useSelector(getIsLoading);
 
@@ -17,15 +17,10 @@ export const Store = () =>{
 
     return(<>
 {loading ? <BoxSpinner/> : <>{shop.store ? <OneStore/>  : <StoresList/>}</>}
-    
-            
 
-
-    
-    
-    
-    
-    
 
     </>)
 }
+
+
+export default Store;

@@ -2,6 +2,7 @@ import { configureStore } from '@reduxjs/toolkit';
 import {storesSlice} from "./shop";
 import { modalSlice } from './modal';
 import {orderSlice} from "./order";
+import {filterSlice} from "./filter";
 import {
   persistStore,
   persistReducer,
@@ -26,6 +27,7 @@ export const store = configureStore({
     store: storesSlice.reducer,
     orders:persistReducer(orderPersistConfig, orderSlice.reducer),
     modal:modalSlice.reducer, 
+    filter:filterSlice.reducer,
     
   },
   middleware(getDefaultMiddleware){

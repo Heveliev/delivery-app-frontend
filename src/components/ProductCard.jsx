@@ -13,7 +13,7 @@ export const ProductCard = ({ id, title, price, currency, store }) => {
 
 
     const handleQuantityChange = (e) => {
-      const value = e.target.value;
+      const value = Number(e.target.value) ;
       setQuantity(value);
     };
   
